@@ -1,7 +1,7 @@
 const express = require("express"),
   fs = require("fs"),
   app = express(),
-  logger = require("./logger.js"),
+  logger = require("logger"),
   config = require("./config.js"),
   errors = require("./errors.js"),
   middleware = ['event_id', 'response', 'connect', 'errorHandle'];
