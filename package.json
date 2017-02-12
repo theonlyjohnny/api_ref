@@ -1,0 +1,24 @@
+{
+  "name": "api_ref",
+  "version": "1.0.0",
+  "description": "A base project for a NodeJs API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theonlyjohnny/api_ref.git"
+  },
+  "author": "Johnny Dallas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theonlyjohnny/api_ref/issues"
+  },
+  "homepage": "https://github.com/theonlyjohnny/api_ref#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "uuid": "^3.0.1",
+    "winston": "^2.3.1"
+  }
+}
